@@ -1,10 +1,7 @@
 package ru.kata.spring.boot_security.demo.model;
 
 
-
-
 import javax.persistence.*;
-
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Objects;
@@ -37,7 +34,7 @@ public class User implements Serializable {
     public User() {
     }
 
-    public User(String firstname, String lastname, int age, String email, String password,Set<Role> roles) {
+    public User(String firstname, String lastname, int age, String email, String password, Set<Role> roles) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
